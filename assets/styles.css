@@ -1,0 +1,103 @@
+
+* {
+	margin: 0;
+  padding: 0;
+  font-family: monospace, sans-serif;
+}
+
+body {
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2rem;
+	background-color: #000;
+}
+
+#container {
+	width: 300px;
+	height: 460px;
+	margin: 20px auto;
+	border: 5px solid grey;
+  font-size: 0; /* to get rid of the spacing between inline statements */
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 10px;
+	background-color: #565656;
+}
+
+#display {
+  width: 18rem;
+  height: 5.9rem;
+	line-height: normal;
+  background-color: #eeeeee;
+	color: black;
+  border-radius: 5rem;
+  margin: auto;
+
+}
+
+#displayNumbers {
+	text-align: right;
+	color: #000;
+	font-size: 1.8rem;
+	font-weight: 400;
+	margin-right: 3rem;
+	padding-top: 1.4rem;
+	padding-bottom: 1rem;
+}
+
+#title {
+  color: white;
+  font-size: 40px;
+}
+
+button {
+  font-size: 1.5rem;
+	border-radius: 10px;
+	background-color: #669966;
+	transition: 0.10s;
+	opacity: 0.9;
+	padding: 1rem 1rem 1rem 1rem;
+	margin-top: 3px;
+}
+
+button:focus {
+    outline-style: none;
+    box-shadow: 0px 0px 0px 2px darkgray;
+}
+button:hover {
+    opacity: 1.0;
+}
+
+#buttons {
+  height: 300px;
+  display: grid;
+  margin: 10px;
+  grid-template-columns: repeat(4, 3fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#add,
+#multiply,
+#subtract,
+#equals,
+#decimal,
+#divide {
+	background-color: #996666;
+}
+
+#clear {
+	background-color: #669999;
+}
+
+#backspace {
+	background-color: #669999;
+}
+
+#buttonContainer {
+  width: 300px;
+  height: 400px;
+  margin: 50px auto;
+	border: 5px solid grey;
+	border-radius: 10px;
+}
